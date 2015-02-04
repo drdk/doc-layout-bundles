@@ -18,7 +18,12 @@ hr {
 h2 {
 	/*font-family: "globalmedium_stencil", "Arial", sans-serif;*/
 }
-
+#zoner-typer .row > * {
+	margin-bottom: 2em;
+}
+#zoner-typer .row {
+	border-bottom: thin solid #ddd;
+}
 .zone, .type {
 	position: relative;
 }
