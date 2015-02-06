@@ -30,11 +30,12 @@ h2 {
 	box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-.zone, .bundle {
+.zone, .bundle, .defs {
 	position: relative;
 }
 .zone:before,
-.bundle:before {
+.bundle:before,
+.defs:before {
 	font-weight: 100;
 	text-transform: uppercase;
 	color: #999;
@@ -58,9 +59,14 @@ h2 {
 .bundle:before {
 	content: "Bundles";
 }
+.defs:before {
+	content: "Definitioner";
+	margin-top: 3em;
+}
 .expand {
 	padding-bottom: 100px;
 }
+
 .gallery {
 	padding: 0 0 60px;
 }
