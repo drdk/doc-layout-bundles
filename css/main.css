@@ -24,11 +24,17 @@ h2 {
 #zoner-typer .row {
 	border-bottom: thin solid #ddd;
 }
-.zone, .type {
+
+#zoner-typer img {
+	margin-top: 1em;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.zone, .bundle {
 	position: relative;
 }
 .zone:before,
-.type:before {
+.bundle:before {
 	font-weight: 100;
 	text-transform: uppercase;
 	color: #999;
@@ -49,18 +55,14 @@ h2 {
 .zone:before {
 	content: "Zoner";
 }
-.type:before {
-	content: "Typer";
+.bundle:before {
+	content: "Bundles";
 }
 .expand {
 	padding-bottom: 100px;
 }
 .gallery {
 	padding: 0 0 60px;
-	/*box-shadow: 0 40px 40px -40px rgba(0,0,0,0.1) inset, 
-				0 -60px 40px -40px rgba(255,255,255,0.5) inset;
-	border: thin solid #CCC;
-	border-width: thin 0;*/
 }
 .gallery .row > * {
 	margin-top: 30px;
@@ -79,9 +81,7 @@ h2 {
 	text-transform: uppercase;
 	color: #999;
 	font-size: 16pt;
-	/*padding-bottom: 10px; */
 	margin-bottom: 20px;
-	/*border-bottom: thin solid white;*/
 	text-shadow: 0 1px 0 rgba(255,255,255,1);
 	display: block;
 }
@@ -118,13 +118,3 @@ h2 {
 	max-width: 100%;
 	height: auto;
 }
-/*.img-wrap:active,
-.img-wrap:focus {
-	z-index: 99999;
-	overflow: initial;
-}
-.img-wrap:focus img:focus,
-.img-wrap:active img:active {
-	max-width: initial;
-}*/
-
