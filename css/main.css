@@ -7,6 +7,10 @@ body {
 	background-repeat: repeat;
 }
 
+li > a.deprecated {
+	color: #999;
+}
+
 hr {
 	border-color: #ddd;
 	border-bottom: thin solid white;
