@@ -18,10 +18,6 @@ hr {
 .page-header {
 	border-color: #ddd;
 }
-
-h2 {
-	/*font-family: "globalmedium_stencil", "Arial", sans-serif;*/
-}
 #zoner-typer .row > * {
 	margin-bottom: 2em;
 }
@@ -90,7 +86,6 @@ h2 {
 }
 .gallery .d:before,
 .gallery .m:before {
-	/*font-family: "globalmedium_stencil", "Arial", sans-serif;
 	font-weight: 100;
 	text-transform: uppercase;
 	color: #999;
