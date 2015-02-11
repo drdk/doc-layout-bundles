@@ -67,6 +67,10 @@ hr {
 .defs:before {
 	content: "Definitioner";
 }
+dd {
+	margin-left: 2em;
+}
+
 .expand {
 	padding-bottom: 100px;
 }
