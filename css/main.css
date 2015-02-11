@@ -48,14 +48,19 @@ h2 {
 	display: block;
 	position: absolute;
 	border-bottom: 1px solid #ccc;
-	padding: 1em 1em 0.5em;
+	padding: 1em 1em 10px 4em;
 	right: 100%;
-	margin-top: 2em;
+	margin-right: 2em;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
 	-o-transform: rotate(-90deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	-webkit-transform-origin: 100%;
+	-moz-transform-origin: 100%;
+	-ms-transform-origin: 100%;
+	-o-transform-origin: 100%;
+	transform-origin: 100%;
 }
 .zone:before {
 	content: "Zoner";
@@ -65,7 +70,6 @@ h2 {
 }
 .defs:before {
 	content: "Definitioner";
-	margin-top: 3em;
 }
 .expand {
 	padding-bottom: 100px;
@@ -86,7 +90,7 @@ h2 {
 }
 .gallery .d:before,
 .gallery .m:before {
-	/*font-family: "globalmedium_stencil", "Arial", sans-serif;*/
+	/*font-family: "globalmedium_stencil", "Arial", sans-serif;
 	font-weight: 100;
 	text-transform: uppercase;
 	color: #999;
