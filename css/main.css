@@ -131,3 +131,33 @@ dd {
 	max-width: 100%;
 	height: auto;
 }
+.overview .img-wrap {
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+.overview h4 {
+	font-weight: 200;
+	counter-reset: item;
+	border-bottom: thin solid #ccc;
+	padding-bottom: 0.5em;
+}
+
+.overview h4 ~ .img-wrap:before,
+.overview h4 + .row .img-wrap:before {
+	counter-increment: item;
+	content: counter(item, upper-alpha);
+	position: absolute;
+	padding: 0 5px;
+	color: #b11;
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 1;
+	opacity: 0.5;
+}
+.overview h4.mediaband {
+	counter-reset: item 2;
+}
+.overview h4.mediaband + * .img-wrap:before {
+	counter-increment: item 2;
+	content: counter(item, decimal);
+}
