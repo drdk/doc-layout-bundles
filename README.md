@@ -1,3 +1,3 @@
-# dr-layout-bundles-doc
+# doc-layout-bundles
 
-Built with [H5BP](https://html5boilerplate.com/) and [Bootstrap](http://getbootstrap.com/) using [Initializr](http://www.initializr.com/).
+Flyttet til (https://github.com/drdk/docs-ux)[https://github.com/drdk/docs-ux].
